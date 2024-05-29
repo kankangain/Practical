@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(132, 0, 255);
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.504);
+    margin-left: 50px;
+    margin-bottom: 12px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lilita One", sans-serif;
+}
+.emoji {
+    font-size: 50px;
+    position: relative;
+    animation: drop 2s;
+    top: -5000px;
+    z-index: -1;
+}
+@keyframes drop {
+    0% {
+        top: -100px;
+        opacity: 0;
+    }
+    50% {
+        top: 50%;
+        opacity: 1;
+    }
+    100% {
+        top: 100%;
+        opacity: 0;
+    }
+}
