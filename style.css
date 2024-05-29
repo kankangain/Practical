@@ -29,7 +29,7 @@ p{
     font-size: 50px;
     position: relative;
     animation: drop 2s;
-    top: -500px;
+    top: -5000px;
     z-index: -1;
 }
 @keyframes drop {
